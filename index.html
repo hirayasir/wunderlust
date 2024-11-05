@@ -8,20 +8,21 @@
 	<title>Wunderlust Travel</title>
 </head>
 <body>
-	<a href="#main-content" id="skipLink">Skip to main content</a>
-    <a href="#form" id="skipLink">Skip to form</a>
-    <a href="#images" id="skipLink">Skip to images</a>
+	<a href="#main-content" id="skipLink1">Skip to main content</a>
+    <a href="#form" id="skipLink2">Skip to form</a>
+    <a href="#images" id="skipLink3">Skip to images</a>
 	<!-- Logo Section -->
 <header>
     <div class="logo-container">
-        <!-- Image for large, Medium, and Small screens -->
-        <picture>
-            <source media="(min-width: 1024w)" srcset="images/logo-L.png">
-            <source media="(min-width: 780w)" srcset="images/logo-M.png">
-            <source media="(min-width: 320w)" srcset="images/logo-S.png">
-            <img src="images/logo-L.png" alt="Wunderlust Travel Logo">
-        </picture>
-    </div>
+    <!-- Image for large, medium, and small screens -->
+    <picture>
+        <source media="(min-width: 1024px)" srcset="images/logo-L.png" />
+        <source media="(min-width: 780px)" srcset="images/logo-M.png" />
+        <source media="(min-width: 320px)" srcset="images/logo-S.png" />
+        <img src="images/logo-L.png" alt="Wunderlust Travel Logo" />
+    </picture>
+</div>
+
 
     
     <h1>Let Wunderlust Travel help you plan the trip of your dreams!</h1>
@@ -36,12 +37,13 @@
         <li><a href="#contact-us">Contact Us</a></li>
     </ul>
 </nav>
-<body>
+
 <!--Main-->
 <main id="main-content">
     <section class="destination majorca">
         <h2>Majorca</h2>
         <article>
+<h3>Explore Beautiful Majorca Islands</h3>
             <p>
                 Imagine an island with turquoise blue waters, secret coves, soft golden sands, lush green foliage, rugged mountains, picturesque villages and a vibrant capital city. The island and its capital, Palma, are overflowing with character, while its beaches are famous all around the world, making it one of the most sought-after summer destinations.
             </p>
@@ -149,7 +151,6 @@
     </div>
 </section>
 
-
 <!-- Testimonials Section -->
 <section id="testimonials" aria-labelledby="testimonials-heading">
     <h2 id="testimonials-heading">Testimonials</h2>
@@ -198,7 +199,6 @@
         <blockquote>“Live, laugh, love-- everything you need in Majorca.”</blockquote>
     </article>
 </section>
-
 
 <!-- About Your Destination Section -->
 <section id="about-destination" aria-labelledby="destination-heading">
@@ -293,7 +293,7 @@
         </select>
 <!-- Travel Time (Fall, Winter, Spring, Summer, Flexible) -->
       <label for="travel-time">Travel Time :</label>
-      <select id="travel-time" name="travel-time" required>
+        <select id="travel-time" name="travel-time" required>
             <option value="">Select a Travel Time </option>
             <option value="Fall">Fall</option>
             <option value="Winter">Winter</option>
